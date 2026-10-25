@@ -644,7 +644,7 @@ if __name__ == "__main__":
     # 配置参数
     MODEL_PATH = "stable_rl_model.pth"  # 您的模型路径
     VOCAB_FILE = "vocab.txt"           # 您的词汇表路径
-    DASHSCOPE_API_KEY = "[REDACTED]"  # 您的API密钥
+    DASHSCOPE_API_KEY = os.environ["DASHSCOPE_API_KEY"]  # 从环境变量读取;旧硬编码密钥应视为已泄漏并立即吊销
     
     try:
         # 创建多Agent系统

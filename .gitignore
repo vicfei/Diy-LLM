@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 模型权重与产物
+*.pth
+*.pt
+training_losses.json
+
+# 临时/工具产物
+tmp.py
+repomix-output.xml
+.env
+
+# 数据(样例文件 test_part.csv / vocab_part.txt 保留入库)

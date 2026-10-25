@@ -1,4 +1,4 @@
-# Poetry-PPO：从零实现的古诗词生成模型全链路项目
+# Diy-LLM：从零实现的古诗词生成模型全链路项目(原 PoetryLLM / Poetry-PPO)
 
 一个教学级的小型语言模型项目：从零手写 **字符级 Decoder-Only Transformer（约 5000 万参数）**，在古诗词语料上完成 **预训练 → PPO 强化学习优化 → KV Cache 推理加速 → 多 Agent 应用落地 → 自动 + 人工双轨评估** 的完整闭环。
 
