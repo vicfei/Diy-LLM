@@ -72,6 +72,15 @@ ppo_train.py ──→ stable_rl_model.pth（PPO 规则奖励微调）
 
 ---
 
+## 模型权重
+
+| 平台 | 地址 |
+|---|---|
+| Hugging Face | https://huggingface.co/cnfeichen/Diy-LLM |
+| ModelScope | https://modelscope.cn/models/cnfeichen/Diy-LLM |
+
+含三个检查点:`best_poetry_model.pth`(预训练基座)、`stable_rl_model.pth`(PPO)、`grpo_model_v2.pth`(GRPO,对比实测最佳 RL 版本)。
+
 ## 环境依赖
 
 ```bash
